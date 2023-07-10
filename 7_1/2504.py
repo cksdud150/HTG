@@ -4,7 +4,7 @@ if bracket[0] != '(' and bracket[0] != '[':
     exit(0)
 stack = [bracket[0]]
 result = ''
-
+#스택하고 직전값을 참조
 for i in range(1,len(bracket)):
     if bracket[i] == '(' or bracket[i] == '[':
         stack.append(bracket[i])
