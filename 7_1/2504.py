@@ -35,3 +35,4 @@ try:
     print(eval(result))
 except:
     print(0)
+

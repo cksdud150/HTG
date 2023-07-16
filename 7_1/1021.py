@@ -14,7 +14,8 @@ for a in arr:
             temp = temp if temp <= (len(deq) + 1) // 2 else len(deq) + 1 - temp
             break
         else:
-            temp += 1
+            temp += 1 # 앞에서 빼고 뒤로 넣은 횟수
             deq.append(now)
     result += temp
 print(result)
+
