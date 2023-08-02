@@ -11,3 +11,4 @@ for i in range(1,n+1):
     arr[i+t-1] = max(arr[i-1]+p,arr[i+t-1])
 
 print(arr[n])
+

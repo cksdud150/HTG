@@ -33,7 +33,7 @@ for i, o in enumerate(operN):
 big = -100**11
 small = 100**11
 
-for oo in permutations(oper, n - 1):
+for oo in permutations(oper, n - 1): #연산자 10개 순열 돌려가지고 
     result = an[0]
     for i, f in enumerate(oo):
         result = f(result, an[i + 1])
