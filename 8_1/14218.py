@@ -16,7 +16,7 @@ for _ in range(m):
 
 
 for i in range(n+1):
-    arr[i][i] = 0
+    arr[i][i] = 0 # i에서 j가는 길이의 최단거리
 
 for k in range(1,n+1):
     for i in range(1,n+1):
